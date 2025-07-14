@@ -1,0 +1,22 @@
+schema_version = "1.0.0"
+
+id = "ps2_icn_extension"
+version = "1.0.0"
+name = "PS2 ICN Extension"
+tagline = "Import & export ICN files"
+maintainer = "tech"
+type = "add-on"
+
+blender_version_min = "4.2.0"
+
+license = [
+    "SDPX:GPL-3.0-or-later"
+]
+
+[build]
+paths_exclude_pattern = [
+    "__pycache__/",
+    "*.blend*",
+    "*.zip",
+    "*.icn"
+]
